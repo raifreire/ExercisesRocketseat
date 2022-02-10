@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício sobre Tabelas</title>
+</head>
+<body>
+    <table>
+        <caption>Produtos</caption>
+    
+        <colgroup>
+            <col>
+            <col style="background-color: darkred;" span="2">
+            <col style="background-color: darkblue;" span="2">
+        </colgroup>
+        
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">loja kagem</th>
+                <th colspan="2" scope="colgroup">loja nabum</th>
+            </tr>
+        
+            <tr>
+                
+                <th scope="col">Total Produto</th>
+                <th scope="col">Total Vendas</th>
+                <th scope="col">Total Produto</th>
+                <th scope="col">Total Vendas</th>
+                
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <th scope="row">nootebook</th>
+                <td>50</td>
+                <td>27</td>
+                <td>57</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <th scope="row">PC</th>
+                <td>98</td>
+                <td>47</td>
+                <td>77</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <th scope="row">Monitor</th>
+                <td>22</td>
+                <td>8</td>
+                <td>34</td>
+                <td>24</td>
+            </tr>
+    
+        </tbody>
+    
+        <tfoot>
+            <tr>
+                <td colspan="5" scope="colgroup">Tabela de Produtos - loja kagem loja nabum estoque/vendas</td>
+            </tr>
+        </tfoot>
+            
+    </table>
+
+    
+<ul>
+    <li><a href="index.html">voltar a pagina inicial</a></li>
+</ul>
+</body>
+</html>
