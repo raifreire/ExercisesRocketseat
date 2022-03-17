@@ -5,20 +5,28 @@ body{
     background-color:beige;
     box-sizing: border-box; 
 }
+p{
+    font-family: 'Roboto', sans-serif;  
+}
 .container{
     width: 100vw;
+    box-sizing: border-box;
 }
 .containerHeader{
-    width: 90%;
+    width: 85%;
     height: 30%;
-    background: linear-gradient(purple, #350a53 );
+    background: linear-gradient(rgb(49, 4, 49), #360442 );
 }
 .containerElementsHeader{
-    border: solid 3px blue;
     width: 80%;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 11%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
 }
 .containerElementsHeader h2{
     font-size: 22px;
@@ -28,35 +36,77 @@ body{
 ul li{
     display: inline;
     margin-right: 10px;
+    color: #ebe5e5;
+    font-family: 'Poppins', sans-serif;
 }
 .find{
-    width: 50px;
+    width: 200px;
+    display: inline-flex;
+}
+.find input{
+    margin: 0;
+    padding: 0;
+    height: 26px;
+    border-style: none;
+}
+.find button{
+    margin: 0;
+    padding: 0;
+    height: 26px;
+    width: 30px;
+    border-style: none;
+    background-color: #7a0c92;
+}
+.find img{
+    width: 20px;
 }
 .containerTextHeader{
-    width: 470px;
-    height: 200px;
-    border: solid 1px #ffffff;
+    width: 400px;
+    height: 300px;
+    text-align: justify;
+    color: #dfd9d9;
+    margin-top: 3%;
 }
 .containerTextHeader h3{
     font-size: 26px;
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #a13bb6;
+    margin-bottom: 4%;
+    text-align: center;
+}
+.containerTextHeader p{
+    margin-left: 20px;
 }
 .elementsHeader{
-    border-bottom: solid 4px #4FFF4B;
+    border-bottom: solid 5px #4FFF4B;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .containerImageHeader{
-    width: 370px;
+    width: 410px;
+    height: 300px;
+    margin-top: 3%;
 }
 .containerImageHeader img{
     max-width: 100%;
 }
+#seeMore{
+    width: 150px;
+    height: 26px;
+    display: flex;
+    margin-top: 20px;
+}
+#seeMore img{
+    width: 18px;
+}
+#seeMore p{
+    display: flex;
+    align-items: center;
+}
 .containerMain{
-    width: 70%;
-    border: solid 2px #ee4423;
-    margin-top: 2%;
+    width: 85%;
     background: linear-gradient(#ffffff , #a273ac);
 }
 .containerMainBox{
@@ -99,7 +149,7 @@ ul li{
     width: 300px;
 }
 .containerFooter{
-    width: 100%;
+    width: 80%;
     height: 10%;
-    border: solid 2px orangered;
+    background: linear-gradient(rgb(136, 13, 136), rgb(63, 6, 63));
 }

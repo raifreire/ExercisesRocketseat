@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>My Blog</title>
 </head>
 <body>
@@ -14,7 +20,7 @@
 
                 <div class="containerElementsHeader">
                     <div class="titleHeader">
-                        <h2>The Blog</h2>
+                        <h1>First Blog</h1>
                     </div>
                     <div class="menu">
                         <ul>
@@ -24,7 +30,9 @@
                             <li>Contato</li>
                         </ul>
                     </div>
-                    <div class="find">buscar</div>
+                    <div class="find">
+                        <input type="search" placeholder="buscar"><button type="button"><img src="assets/images/search.svg" alt=""></button>
+                    </div>
                 </div>
 
                 <div class="elementsHeader">
@@ -32,9 +40,12 @@
                     <div class="containerTextHeader">
                         <h3>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsa neque dolorum maxime! Doloribus, quasi eligendi. Reiciendis, voluptatem officiis porro cupiditate quod ut exercitationem! Illum sequi modi quibusdam possimus itaque?</p>
+                        <div id="seeMore"><p>Veja mais</p> <img src="assets/images/arrow-right.svg" alt=""></div>
                     </div>
                     <div class="containerImageHeader">
-                        <img src="assets/images/featured-image.png" alt="">
+                        <figure>
+                            <img src="assets/images/featured-image.png" alt="">
+                        </figure>
                     </div>
                 </div>
 
@@ -46,33 +57,54 @@
             <div class="containerMain">
                 <div class="containerMainBox">
                     <div class="box-1">
-                        <img src="assets/images/post-1.png" alt="">
+                        <figure>
+                            <img src="assets/images/post-1.png" alt="">
+                            <figcaption>janeiro 03, 2022</figcaption>
+                        </figure>
+                        <h3>Começando no ReactJs em 2022</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem, sint, nesciunt maxime molestiae nostrum soluta ducimus magnam ab, pariatur iusto debitis exercitationem est accusantium alias voluptas voluptatibus non! Tempore?</p>
                     </div>
 
                     <div class="box-2">
                         <div class="box-2-1">
                             <p>janeiro 04, 2022</p>
-                            <p>conheça as principais técnicas para conseguir uma vaga internacional em programação</p>
+                            <h3>conheça as principais técnicas para conseguir uma vaga internacional em programação</h3>                            
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error culpa et, ipsa impedit totam tenetur debitis sed quibusdam laborum doloremque laudantium esse deleniti, minus ratione voluptatibus omnis eum beatae quidem?</p>
                         </div>
                         <div class="box-2-2"> 
                             <p>janeiro 04, 2022</p>
-                            <p>conheça as principais técnicas para conseguir uma vaga internacional em programação</p>
+                             <h3>conheça as principais técnicas para conseguir uma vaga internacional em programação</h3>
+                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolor blanditiis cum, facere pariatur eaque fugit officia.</p>
                         </div>
                     </div> 
                 </div>
 
                 <div class="box-3">
-                    <img src="assets/images/post-2.png" alt="">
-                    <img src="assets/images/post-3.png" alt="">
-                    <img src="assets/images/post-4.png" alt="">
+                    <figure>
+                        <img src="assets/images/post-2.png" alt="">
+                        <figcaption>janeiro 03, 2022</figcaption>
+                        <h3>10 dicas para conseguir a vaga desejada</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, facilis ullam iure hic, nam vel.</p>
+                    </figure>
+                    <figure>
+                        <img src="assets/images/post-3.png" alt="">
+                        <figcaption>janeiro 03, 2022</figcaption>
+                        <h3>Deixe seu código mais semântico com essas dicas.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id.</p>
+                    </figure>
+                    <figure>
+                        <img src="assets/images/post-4.png" alt="">
+                        <figcaption>janeiro 03, 2022</figcaption>
+                        <h3>Use essas dicas nas suas aplicações mobile.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam molestiae temporibus.</p>
+                    </figure>
                 </div>
             </div>
         </main>
 
         <footer>
             <div class="containerFooter">
-                <div class="foot">footer</div>
+                <div class="foot">desenvolvido por: rai freire</div>
             </div>
         </footer>
     </div>    
