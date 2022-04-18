@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    display: flex;
+}
+
+.containerForm {
+    display: flex;
+    flex: 1;
+}
+
+.containerElementsForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--form-background);
+    gap: 1.4rem;
+    z-index: 1;
+}
+
+
+.tittle {
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: var(--text-title);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+h2 {
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+h4{
+    color: var(--text-base);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.allignTittle {
+    width: 60%;
+    display: flex;
+    gap: .8rem;
+}
+
+.inputs {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-base);
+
+}
+
+.inputs input {
+    height: 35px;
+    background: none;
+    border-style: none;
+    border-radius: 4px;
+    border: solid 2px var(--text-base);
+    padding-left: 30px;
+    color: white;
+
+}
+
+span {
+    width: min-content;
+    position: relative;
+    left: 5px;
+    top: -32px;
+    z-index: 2;
+
+}
+
+#eye {
+    position: relative;
+    left: 310px;
+    top: -18px;
+}
+
+.checkboxSenha {
+    width: 60%;
+    height: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.checkboxSenha :nth-child(1) {
+    color: var(--text-base);
+}
+
+.checkboxSenha :nth-child(2) {
+    color: var(--primary-color);
+}
+
+a {
+    outline-style: none;
+    text-decoration: none;
+}
+
+.buttonA {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttonA button {
+    width: 60%;
+    height: 45px;
+    color: var(--background);
+    background-color: var(--primary-color);
+    border-style: none;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+
+.buttonA :nth-child(2) {
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.containerImage {
+    display: flex;
+    flex: 1;
+}
+
+img {
+    display: flex;
+}
